@@ -1,6 +1,6 @@
-#define BLYNK_TEMPLATE_ID "TMPL3YjA5_Lrk"
-#define BLYNK_TEMPLATE_NAME "Heart Rate Monitor"
-#define BLYNK_AUTH_TOKEN "HFBh__aMVbZKfDZ6hjXX2ZxJrhbmqhls"
+#define BLYNK_TEMPLATE_ID "enter_template_id"
+#define BLYNK_TEMPLATE_NAME "enter_template_name"
+#define BLYNK_AUTH_TOKEN "enter_AUTH_token"
 
 #include <Wire.h>
 #include "MAX30100_PulseOximeter.h"
@@ -8,8 +8,8 @@
 #include <BlynkSimpleEsp8266.h>
 
 
-char ssid[] = "Hello";
-char pass[] = "qwertyuiop";
+char ssid[] = "enter_wifi_ssid";
+char pass[] = "enter_password";
 
 PulseOximeter pox;
 float bpm, spo2;
